@@ -1,0 +1,36 @@
+{
+    "name": "skv1991/flarum-ext-urlfix",
+    "description": "Flarum forum URL Russian characters bug fix.",
+    "keywords": ["flarum", "skv1991", "url", "fix", "russian"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kirill Saltykov",
+            "email": "skv1991@yandex.ru",
+            "homepage": "http://skv1991.ru"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/skv1991/flarum-ext-urlfix/issues",
+        "source": "https://github.com/skv1991/flarum-ext-urlfix"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.5"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Rus URL Fix",
+            "icon": {
+                "name": "wrench",
+                "backgroundColor": "#000",
+                "color": "#87d37c"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SKV1991\\RusUrlFix\\": "src/"
+        }
+    }
+}
